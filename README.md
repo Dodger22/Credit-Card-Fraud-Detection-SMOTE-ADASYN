@@ -6,7 +6,7 @@ With Machine Learning (ML) techniques we can efficiently discover credıt card f
 
 # CONTENT
 
-(1. cONCLUSN)[https://github.com/Dodger22/Credit-Card-Fraud-Detection-SMOTE-ADASYN/blob/main/README.md#conclusion]
+[1. cONCLUSN](https://github.com/Dodger22/Credit-Card-Fraud-Detection-SMOTE-ADASYN/blob/main/README.md#conclusion)
 
 # CREDIT CARD FRAUD DETECTION
 

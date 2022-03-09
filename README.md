@@ -5,12 +5,13 @@ With Machine Learning (ML) techniques we can efficiently discover credıt card f
 ![Resim1](https://user-images.githubusercontent.com/88277713/157431834-f38b2f3e-7574-4dc3-9585-f7bbe005e4b4.png)
 
 # CONTENT
-
-[1. cONCLUSN](https://github.com/Dodger22/Credit-Card-Fraud-Detection-SMOTE-ADASYN/blob/main/README.md#conclusion)
+[Introduction](https://github.com/Dodger22/Credit-Card-Fraud-Detection-SMOTE-ADASYN/edit/main/README.md#introduction)
+[Conclusion](https://github.com/Dodger22/Credit-Card-Fraud-Detection-SMOTE-ADASYN/blob/main/README.md#conclusion)
+[Methodology](https://github.com/Dodger22/Credit-Card-Fraud-Detection-SMOTE-ADASYN/edit/main/README.md#methodology)
 
 # CREDIT CARD FRAUD DETECTION
 
-## INTRODUCTION
+## Introduction
 Credit card fraud happens when consumers give their credit card number to unfamiliar individuals, when cards are lost or stolen, when mail is diverted from the intended recipient and taken by criminals, or when employees of a business copy the cards or card numbers of a cardholder
 
 In recent years credit card usage is predominant in modern day society and credit card fraud is keep on growing. Financial losses due to fraud affect not only merchants and banks (e.g. reimbursements), but also individual clients. If the bank loses money, customers eventually pay as well through higher interest rates, higher membership fees, etc. Fraud may also affect the reputation and image of a merchant causing non-financial losses that, though difficult to quantify in the short term, may become visible in the long period.
@@ -20,7 +21,7 @@ Most banks considers huge transactions, among which very few is fraudulent, ofte
 
 Alternatively, with Machine Learning (ML) techniques we can efficiently discover fraudulent patterns and predict transactions that are probably to be fraudulent. ML techniques consist in inferring a prediction model on the basis of a set of examples. The model is in most cases a parametric function, which allows predicting the likelihood of a transaction to be fraud, given a set of features describing the transaction.
 
-## METHODOLOGY
+## Methodology
 
 Fraud detection is a binary classification task in which any transaction will be predicted and labeled as a fraud or legit. In this Notebook state of the art classification techniques were tried for this task and their performances were compared.
 
@@ -71,7 +72,7 @@ I wanted to show the ROC curve for each algorithm anyway. Random Forest Classifi
 
 ![Resim9](https://user-images.githubusercontent.com/88277713/157432470-0cf6a47c-e638-4858-83df-fc2bf803e563.png)
 
-## CONCLUSION
+## Conclusion
 
 After using all the methods we determined, I decided that the method with the Classification table the most logical and efficient confusion matrix results is Random Forest Classifier/ADASYN. But you can also examine the tables of other methods from my kaggle or github account.
 I think Random Forest Classifier/ADASYN method is better. When we look the charts, ı see the results are beter on the Random Forest Classifier/ADASYN charts. But don't forget, did not use Future Selection methods and when I got data , the data was PCA format so see the outiler data or noisy data is very hard. I would not wanted to incorrect predict. The data already was İnbalanced.
